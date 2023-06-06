@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteRule ^dashboard$ /views/dashboard.view.php [L]
+
+RewriteRule ^dashboard/bookings$ /views/user/bookings.view.php [L]
+
+RewriteRule ^dashboard/shedules$ /views/doctor/shedules.view.php [L]
+RewriteRule ^dashboard/patients$ /views/doctor/patients.view.php [L]
+
+RewriteRule ^dashboard/filial/records$ /views/admin/records.view.php [L]
+RewriteRule ^dashboard/filial/categories$ /views/admin/categories.view.php [L]
+RewriteRule ^dashboard/filial/services$ /views/admin/services.view.php [L]
+RewriteRule ^dashboard/users/patients$ /views/admin/patients.view.php [L]
+RewriteRule ^dashboard/users/staff$ /views/admin/staff.view.php [L]
+RewriteRule ^dashboard/analyz$ /views/admin/statistics.view.php [L]

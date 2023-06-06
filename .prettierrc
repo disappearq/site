@@ -1,0 +1,8 @@
+{
+	"tabWidth": 4,
+	"singleQuote": true,
+	"semi": false,
+	"printWidth": 160,
+	"pluginSearchDirs": ["./node_modules"],
+	"plugins": ["@prettier/plugin-php", "prettier-plugin-tailwindcss"]
+}
